@@ -74,5 +74,5 @@ def excluir_animais(id):
     return jsonify({'erro': 'Animal não encontrado'}), 404        
    
    
-
+#Permite acessar localmente para manipular os dados
 app.run(port=5000,host='localhost', debug = True)        
